@@ -1,6 +1,8 @@
 <html>
 <body>
     <p>Hi there!</p>
-    <p>Finally it works!</p>
+    {% for bid_desk in bid_desks%} 
+	<p>{{bid_desk}}</p>
+    {% endfor%}
 </body>
 </html>
